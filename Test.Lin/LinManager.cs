@@ -510,7 +510,7 @@ namespace Test.Lin
             IsTxError = err != Peak.Lin.TLINError.errOK;
             if (IsTxError)
             {
-                string emsg = GetFormatedError(err);
+                string emsg = GetFormatedError(err); 
                 Log.e("Lin Write:" + emsg);
             }
 
